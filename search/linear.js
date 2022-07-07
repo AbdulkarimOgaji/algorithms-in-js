@@ -1,6 +1,6 @@
 
 
-function linear(arr, t) {
+function linearSearch(arr, t) {
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] == t) return i
     }
@@ -10,6 +10,6 @@ function linear(arr, t) {
 const array = [-7, 2, 11, 23, 10, 50]
 
 
-console.log(linear(array, 11))
-console.log(linear(array, 10))
-console.log(linear(array, 20))
+console.log(linearSearch(array, 11))
+console.log(linearSearch(array, 10))
+console.log(linearSearch(array, 20))

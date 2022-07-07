@@ -2,7 +2,7 @@
 
 
 // O(n^2)
-function insertion(arr) {
+function insertionSort(arr) {
   for (let lastSorted = 1; lastSorted < arr.length; lastSorted++) {
     const toInsert = arr[lastSorted];
     let i = lastSorted - 1;
@@ -19,4 +19,4 @@ function insertion(arr) {
 const array = [-6, 1, -7, 15, 14, 3, 2, 1]
 
 
-console.log(insertion(array))
+console.log(insertionSort(array))

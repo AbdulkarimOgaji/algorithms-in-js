@@ -1,7 +1,7 @@
 
 
 // O(n^2)
-function bubble(arr) {
+function bubbleSort(arr) {
     while(true) {
         var hasSwapped = false   
         for (let index = 0; index < arr.length-1; index++) {
@@ -19,4 +19,4 @@ function bubble(arr) {
 
 const array = [-6, 1, -7, 15, 14, 3, 2, 1]
 
-console.log(bubble(array))
+console.log(bubbleSort(array))

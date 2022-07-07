@@ -1,7 +1,7 @@
 
 
 // O(logn)
-function binary(arr, t) {
+function binarySearch(arr, t) {
     var right = arr.length -1
     var left = 0
     while (left <= right) {
